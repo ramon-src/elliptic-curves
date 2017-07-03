@@ -147,7 +147,7 @@ class EllipticCurve
     public function calculateLambda()
     {
         if ($this->p == $this->q) {
-            $this->lambda = ((3 * $this->p[0] + $this->a) / (2 * $this->p[1]));
+            $this->lambda = ((3 * pow($this->p[0],2) + $this->a) / (2 * $this->p[1]));
         } else {
             $this->lambda = (($this->q[1] - $this->p[1]) / ($this->q[0] - $this->p[0]));
         }
