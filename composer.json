@@ -1,0 +1,17 @@
+{
+  "name": "ramon/elliptic-curve-points",
+  "type": "studyproject",
+  "authors": [
+    {
+      "name": "Ramon Schmidt",
+      "email": "ramonroc@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.*",
+    "ext-gmp": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  }
+}
