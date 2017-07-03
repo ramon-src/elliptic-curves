@@ -165,8 +165,8 @@ if (!isset($_SESSION['RSA'])) {
 
 
     //  var env = 'http://localhost/rsa-encrypter';
-    var env = 'http://localhost:8080';
-    //  var env = 'https://rsa-encrypter.herokuapp.com';
+//    var env = 'http://localhost:8080';
+      var env = 'https://elliptic-curves.herokuapp.com';
 
     var listprimes = [];
     var primesReceived = [];
