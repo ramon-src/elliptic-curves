@@ -1,15 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['RSA'])) {
-    $_SESSION['RSA'] = [
-        'e' => '',
-        'n' => '',
-        'd' => '',
-        'z' => '',
-        'p' => '',
-        'q' => '',
-    ];
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +8,7 @@ if (!isset($_SESSION['RSA'])) {
 <head>
     <meta charset="UTF-8">
     <title>Elliptic Curve Points - Algorithm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
